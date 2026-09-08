@@ -71,7 +71,15 @@ extern "C" {
 //#define DEVICE_ZG204ZL		50  // HOBEIAN ZG-204ZL PIR + LUX sensor
 #define DEVICE_ZG204ZV		51  // HOBEIAN-ZG-204ZV T&H + LUX + Radar Sensor
 #define DEVICE_TS0201_WING	52  // TS0201_TZ3000_dnpd6ayp, Tuya Zigbee "Temp & Humidity Sensor", Wing TS0201 2xAAA
-
+//#define DEVICE_ZG204ZL	50  // ZigBee only, HOBEIAN ZG-204ZL PIR + LUX sensor
+#define DEVICE_ZG204ZV		51  // HOBEIAN-ZG-204ZV T&H + LUX + Radar Sensor
+#define DEVICE_TS0201_WING	52  // TS0201_TZ3000_dnpd6ayp, Tuya Zigbee "Temp & Humidity Sensor", Wing TS0201 2xAAA
+//#define DEVICE_ZG223Z			53 // ZigBee only, HOBEIAN ZG223Z, Zigbee "Raindrop Detection Senser" + Lx, CR123A
+//#define DEVICE_DIY_SCD41		54 // reserved: BLE, DIY module TB03F + SCD41, Li(ion, pol,...) battery >= 800 mAh
+//#define DEVICE_ZG204ZV1		55 // ZigBee only, HOBEIAN-ZG-204ZV T&H + LUX + Radar Sensor XBR818
+//#define DEVICE_ZG204ZV2_TH	56 // ZigBee only, HOBEIAN-ZG-204ZV T&H + LUX + Radar Sensor XBR818 (HOBEIAN GPIO)
+//#define DEVICE_ZG204ZV2		57 // ZigBee only, HOBEIAN-ZG-204ZV without T&H, LUX + Radar Sensor XBR818
+//#define DEVICE_NEXT			58 // ?
 
 #define TEST_PLM1 			0  // TB03F My Plant monitor
 
@@ -2377,8 +2385,8 @@ extern "C" {
 )
 
 #define USE_FLASH_SERIAL_UID	1
-#define ZIGBEE_TUYA_OTA   1
-#define USE_EPD            0 // min update time ms
+#define ZIGBEE_TUYA_OTA   		1
+#define USE_EPD            		0 // min update time ms
 
 #define USE_SENSOR_CHT8305      1
 #define USE_SENSOR_CHT8215      0

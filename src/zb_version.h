@@ -9,41 +9,6 @@
 #define STACK_BUILD							0x01 // stack build 01
 
 
-/* Zigbee Board ID:
-//#define BOARD_LYWSD03MMC_B14		0 // number used for BLE firmware
-#define BOARD_MHO_C401				1
-#define BOARD_CGG1					2
-//#define BOARD_LYWSD03MMC_B19		3 // number used for BLE firmware
-//#define BOARD_LYWSD03MMC_DEVBIS	3 // ver https://github.com/devbis/z03mmc
-//#define BOARD_LYWSD03MMC_B16		4 // number used for BLE firmware
-//#define BOARD_WATERMETER			4 // ver https://github.com/slacky1965/watermeter_zed 
-//#define BOARD_LYWSD03MMC_B17		5 // number used for BLE firmware
-#define BOARD_CGDK2					6
-#define BOARD_CGG1N					7 // 2022
-#define BOARD_MHO_C401N				8 // 2022
-#define BOARD_MJWSD05MMC			9
-//#define BOARD_LYWSD03MMC_B15		10 // number used for BLE firmware
-#define BOARD_LYWSD03MMC			10
-#define BOARD_MHO_C122				11
-#define BOARD_MJWSD06MMC			12
-#define BOADR_MJWSD05MMC_EN			13
-//#define BOARD_LYWSD03MMC_B16		14 // number used for BLE firmware
-// 15 - reserved
-#define BOARD_TB03F					16 // DIY TB-03F-Kit
-#define BOARD_TS0201_TZ3000			17
-#define BOARD_TNKS					18 // Water tank controller (not yet published at the moment)
-#define BOARD_THB2					19
-#define BOARD_BTH01					20
-#define BOARD_TH05					21
-#define DEVICE_TH03Z   				22 // ZigBee TH03Z
-#define BOARD_THB1					23 // https://github.com/pvvx/THB2
-#define BOARD_TH05D					24 // TH05_V1.3 https://github.com/pvvx/THB2
-#define BOARD_TH05F					25 // TH05Y_V1.2 https://github.com/pvvx/THB2
-#define BOARD_THB3					26 // https://github.com/pvvx/THB2
-#define BOARD_ZTH01   				27 // ZigBee ZTH01
-#define BOARD_ZTH02   				28 // ZigBee ZTH02
-*/
-
 #ifndef DEVICE_CGG1_ver
 #define DEVICE_CGG1_ver		   0 // =2022 - CGG1-M version 2022, or = 0 - CGG1-M version 2020,2021
 #endif
@@ -80,6 +45,12 @@
 #define DEVICE_ZG204ZL		50  // HOBEIAN ZG-204ZL PIR + LUX sensor
 #define DEVICE_ZG204ZV		51  // HOBEIAN-ZG-204ZV T&H + LUX + Radar Sensor
 #define DEVICE_TS0201_WING	52  // TS0201_TZ3000_dnpd6ayp, Tuya Zigbee "Temp & Humidity Sensor", Wing TS0201 2xAAA
+//#define DEVICE_ZG223Z			53 // ZigBee only, HOBEIAN ZG223Z, Zigbee "Raindrop Detection Senser" + Lx, CR123A
+//#define DEVICE_DIY_SCD41		54 // reserved: BLE, DIY module TB03F + SCD41, Li(ion, pol,...) battery >= 800 mAh
+//#define DEVICE_ZG204ZV1		55 // ZigBee only, HOBEIAN-ZG-204ZV LUX + Radar Sensor XBR818
+//#define DEVICE_ZG204ZV2_TH	56 // ZigBee only, HOBEIAN-ZG-204ZV v2 T&H + LUX + Radar Sensor XBR818 (HOBEIAN GPIO)
+//#define DEVICE_ZG204ZV2		57 // ZigBee only, HOBEIAN-ZG-204ZV v2 LUX + Radar Sensor XBR818
+//#define DEVICE_NEXT			58 // ?
 
 
 #if 0 // not used in this code!

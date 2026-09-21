@@ -4,8 +4,8 @@
         "fileSize": 75202,
         "manufacturerCode": 4742,
         "imageType": 515,
-        "sha512": "cef5a0c34461acea79b1dc8027421ba6f41d95f812d98190e2903a325e8e7152d0f105b063df98d5fb361f37e7bf26bab3aa84251c3e085ae5b507805152942c",
+        "sha512": "cb6c45df85bfc73b11da641d6be0d78a201c11f81100ec0eb72e99347a6039005877c4b77331ae711464f753a525212adc3c6d55a0a7d343ddfb781d07ac1982",
         "otaHeaderString": "Sonoff to BLE",
-        "url": "https://github.com/pvvx/ATC_MiThermometer/raw/master/zigbee_ota/1286-0203-10983001-ZG227ZBLE_v58.zigbee"
+        "url": "https://github.com/pvvx/ATC_MiThermometer/raw/master/zigbee_ota/1286-0203-10983001-ZG227ZBLE_v59.zigbee"
     }
 ]

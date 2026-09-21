@@ -1,11 +1,11 @@
 [
     {
         "fileVersion": 2576953345,
-        "fileSize": 86402,
+        "fileSize": 86370,
         "manufacturerCode": 4417,
         "imageType": 515,
-        "sha512": "4e12d9d9872adedc2dfbc28103d172219066eb0d1256064f159674e1725fb0668392ce25b358545859b854035da6af5e7d79f66b5394f2daf6fc5d7c7e14b623",
+        "sha512": "718636bf64982bf8828b4fe0f5fa3386d78f64388565fd2008971e2af4bcab7e37e8a70cb52abb64ce2728e90c5b1b5385f9bd3ea419e6590d60f887c505b7a9",
         "otaHeaderString": "Zigbee devis to BLE",
-        "url": "https://github.com/pvvx/ATC_MiThermometer/raw/master/zigbee_ota/1141-0203-99993001-ATC_v58.zigbee"
+        "url": "https://github.com/pvvx/ATC_MiThermometer/raw/master/zigbee_ota/1141-0203-99993001-ATC_v59.zigbee"
     }
 ]

@@ -82,7 +82,7 @@ extern "C" {
 //#define DEVICE_NEXT			58 // ?
 
 #ifndef DEVICE_TYPE
-#define DEVICE_TYPE			DEVICE_PLM1
+#define DEVICE_TYPE			DEVICE_LYWSD02MMC
 #endif
 
 // supported services by the device (bits)

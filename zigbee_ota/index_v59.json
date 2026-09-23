@@ -256,7 +256,7 @@
         "fileSize": 85346,
         "manufacturerCode": 4417,
         "imageType": 561,
-        "sha512": "5e5bc714611cdb639efea73e59f4c4f6c40273399e6f1ed210b9ec645c1d5100c99f8e3665c450a58474b159d7fb79fd2ed7b18f201bd8e0837fc4ecf1bddd2d",
+        "sha512": "81e990685e7f165eea9e5091a6b594a95f1409ad6abb468a2d01b5366b95f774232601fbb0572f914ea45b31f96efdcf39cee991a660ef0c02abaf90561d7e4c",
         "otaHeaderString": "ZigbeeTLc to BLE",
         "url": "https://github.com/pvvx/ATC_MiThermometer/raw/master/zigbee_ota/1141-0231-99993001-LYWSD02MMC_v59.zigbee"
     },
